@@ -1,75 +1,75 @@
 def divisible_one(number):
     if number % 1 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_two(number):
     if number % 2 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_three(number):
     if number % 3 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_four(number):
     if number % 4 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_five(number):
     if number % 5 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_six(number):
     if number % 6 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_seven(number):
     if number % 7 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_eight(number):
     if number % 8 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_nine(number):
     if number % 9 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
 def divisible_ten(number):
     if number % 10 == 0:
-        return True
+        return "True"
     else:
-        return False
+        return "False"
 
 
-smallnum = input(print("Enter the small number : "))
-bignum = input(print("Enter the big number : "))
+smallnum = int(input("Enter the small number : "))
+bignum = int(input("Enter the big number : "))
 
 if smallnum == 1:
     print(divisible_one(bignum))
